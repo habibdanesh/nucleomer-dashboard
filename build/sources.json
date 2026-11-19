@@ -1,0 +1,89 @@
+{
+ "_doc": "Where build/prepare*.py find the raw Nucleomer results (maintainers only). Paths are relative to 'root'; 'root' is relative to the repo, or set NUCLEOMER_RESULTS / --root.",
+ "root": "../../kmer/exp",
+ "models": [
+  {
+   "name": "GATA2",
+   "family": "BPNet",
+   "assay": "ChIP-seq",
+   "path": "2025-07-30-first-tool-on-multi-models/01-bpnet-tf-models/nucleomer-results-K562-GATA2-BPNet"
+  },
+  {
+   "name": "JUNB",
+   "family": "BPNet",
+   "assay": "ChIP-seq",
+   "path": "2025-07-30-first-tool-on-multi-models/01-bpnet-tf-models/nucleomer-results-K562-JUNB-BPNet"
+  },
+  {
+   "name": "ELF4",
+   "family": "BPNet",
+   "assay": "ChIP-seq",
+   "path": "2025-07-30-first-tool-on-multi-models/01-bpnet-tf-models/nucleomer-results-K562-ELF4-BPNet"
+  },
+  {
+   "name": "SOX6",
+   "family": "BPNet",
+   "assay": "ChIP-seq",
+   "path": "2025-07-30-first-tool-on-multi-models/01-bpnet-tf-models/nucleomer-results-K562-SOX6-BPNet"
+  },
+  {
+   "name": "MYC",
+   "family": "BPNet",
+   "assay": "ChIP-seq",
+   "path": "2025-07-30-first-tool-on-multi-models/01-bpnet-tf-models/nucleomer-results-K562-MYC-BPNet"
+  },
+  {
+   "name": "CTCF",
+   "family": "BPNet",
+   "assay": "ChIP-seq",
+   "path": "2025-07-30-first-tool-on-multi-models/01-bpnet-tf-models/nucleomer-results-K562-CTCF-BPNet"
+  },
+  {
+   "name": "ATAC",
+   "family": "BPNet",
+   "assay": "ATAC-seq",
+   "path": "2025-07-30-first-tool-on-multi-models/01-bpnet-tf-models/nucleomer-results-K562-ATAC-BPNet"
+  },
+  {
+   "name": "KLF1",
+   "family": "Cherimoya",
+   "assay": "ChIP-seq",
+   "path": "2026-03-29-Cherimoya-models/03-run-nucleomer/nucleomer-results-K562-KLF1-Cherimoya"
+  },
+  {
+   "name": "TEAD4",
+   "family": "Cherimoya",
+   "assay": "ChIP-seq",
+   "path": "2026-03-29-Cherimoya-models/03-run-nucleomer/nucleomer-results-K562-TEAD4-Cherimoya"
+  },
+  {
+   "name": "ZBTB33",
+   "family": "Cherimoya",
+   "assay": "ChIP-seq",
+   "path": "2026-03-29-Cherimoya-models/03-run-nucleomer/nucleomer-results-K562-ZBTB33-Cherimoya"
+  },
+  {
+   "name": "NRF1",
+   "family": "Cherimoya",
+   "assay": "ChIP-seq",
+   "path": "2026-03-29-Cherimoya-models/03-run-nucleomer/nucleomer-results-K562-NRF1-Cherimoya"
+  },
+  {
+   "name": "SP1",
+   "family": "Cherimoya",
+   "assay": "ChIP-seq",
+   "path": "2026-03-29-Cherimoya-models/03-run-nucleomer/nucleomer-results-K562-SP1-Cherimoya"
+  },
+  {
+   "name": "PRO-cap",
+   "family": "ProCapNet",
+   "assay": "PRO-cap",
+   "path": "2025-07-30-first-tool-on-multi-models/02-procapnet/nucleomer-results-K562-ProCapNet"
+  }
+ ],
+ "segmentation": {
+  "results": "2025-11-23-fimo-alternative/08-expanded-eval-of-v5/results-chr1-v7",
+  "config": "2025-11-23-fimo-alternative/08-expanded-eval-of-v5/eval_config.chr1.v7.json",
+  "genome": "../data/references/hg38.fa"
+ }
+}

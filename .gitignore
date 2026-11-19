@@ -1,0 +1,7 @@
+data/
+data.new/
+dist/
+.venv/
+*.log
+__pycache__/
+.DS_Store

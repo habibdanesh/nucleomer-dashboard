@@ -1,0 +1,7 @@
+dash>=4.0,<5
+plotly>=6.0,<8
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+networkx>=3.0
+umap-learn>=0.5.5
